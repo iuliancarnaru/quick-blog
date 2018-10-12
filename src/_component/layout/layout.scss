@@ -1,0 +1,36 @@
+.welcome {
+    background-image: radial-gradient(ellipse, $color-buttercup, $color-golden-grass);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+        color: $color-white;
+        font-size: 3.5rem;
+    }
+
+    p {
+        padding: 1.5rem;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    a:link,
+    a:visited {
+        text-decoration: none;
+        color: $color-white;
+        font-size: 1.8rem;
+        transition: all .2s;
+        padding: 1rem;
+        border: 0.05rem solid $color-white;
+        border-radius: 1rem;
+    }
+
+    a:hover,
+    a:active {
+        transform: scale(1.01);
+        box-shadow: 0 1rem 2rem rgba($color-black, .1);
+    }
+}

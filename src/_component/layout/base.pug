@@ -6,7 +6,10 @@ html(lang="en")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
         meta(http-equiv="X-UA-Compatible", content="ie=edge")
         meta(name="description", content=description)
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700" rel="stylesheet">
+        link(rel="stylesheet", href="style.css")
         title=title
     body
-        include ../menu/menu
         block content
+        include ../menu/menu
+        include ../footer/footer
