@@ -6,30 +6,33 @@
     justify-content: center;
     align-items: center;
 
-    h1 {
+    &__title {
         color: $color-white;
+        text-align: center;
         font-size: 3.5rem;
     }
 
-    p {
+    &__description {
         padding: 1.5rem;
         font-size: 1.5rem;
         text-align: center;
     }
 
-    a:link,
-    a:visited {
+    &__button:link,
+    &__button:visited {
+        display: inline-block;
         text-decoration: none;
         color: $color-white;
         font-size: 1.8rem;
         transition: all .2s;
-        padding: 1rem;
+        padding: .5rem 2rem;
         border: 0.05rem solid $color-white;
         border-radius: 1rem;
+        background-color: $color-carrot-orange;
     }
 
-    a:hover,
-    a:active {
+    &__button:hover,
+    &__button:active {
         transform: scale(1.01);
         box-shadow: 0 1rem 2rem rgba($color-black, .1);
     }
