@@ -1,0 +1,29 @@
+footer {
+  font-size: 1.4rem;
+  padding: 1.22rem;
+  background-color: $color-dark;
+  text-align: center;
+
+  div {
+      color: $color-white;
+  }
+
+  .footer__list {
+    list-style: none;
+
+    li {
+      display: inline-block;
+      padding: 0.5rem;
+
+      &:not(:last-child) {
+        margin-right: 2rem;
+      }
+
+      a {
+        text-decoration: none;
+        color: $color-white;
+        font-size: 1.4rem;
+      }
+    }
+  }
+}

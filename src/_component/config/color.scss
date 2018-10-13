@@ -1,7 +1,6 @@
-$theme: 'green';
+$theme: 'default';
 
-
-// DEFAULT COLORS
+// DEFAULT THEME -- DEFAULT --
 
 $color-light: #f1c40f;
 $color-dark: #f39c12;
@@ -15,12 +14,12 @@ $color-emperor: #555;
 @if ($theme == 'green') {
     $color-light: #80f8a4;
     $color-dark: #298126;
-    $color-button: #2b5041;
+    $color-button: #257422;
 }
 
 // THEME2 -- blue --
 @if ($theme == 'blue') {
     $color-light: #0fcff1;
     $color-dark: #1259f3;
-    $color-button: #1286f3;
+    $color-button: #0f52e2;
 }

@@ -37,3 +37,12 @@
         box-shadow: 0 1rem 2rem rgba($color-black, .1);
     }
 }
+
+.continue {
+    padding: 2rem;
+    font-size: 1.4rem;
+
+    p:not(:last-child) {
+        margin-bottom: 2rem;
+    }
+}
