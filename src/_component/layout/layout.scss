@@ -1,5 +1,5 @@
 .welcome {
-    background-image: radial-gradient(ellipse, $color-buttercup, $color-golden-grass);
+    background-image: radial-gradient(ellipse, $color-light, $color-dark);
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -28,7 +28,7 @@
         padding: .5rem 2rem;
         border: 0.05rem solid $color-white;
         border-radius: 1rem;
-        background-color: $color-carrot-orange;
+        background-color: $color-button;
     }
 
     &__button:hover,

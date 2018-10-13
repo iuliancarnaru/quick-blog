@@ -1,6 +1,26 @@
-$color-buttercup: #f1c40f;
-$color-golden-grass : #f39c12;
-$color-carrot-orange : #f38a12;
+$theme: 'green';
+
+
+// DEFAULT COLORS
+
+$color-light: #f1c40f;
+$color-dark: #f39c12;
+$color-button: #f38a12;
+
 $color-white: #fff;
 $color-black: #000;
 $color-emperor: #555;
+
+// THEME1 -- GREEN --
+@if ($theme == 'green') {
+    $color-light: #80f8a4;
+    $color-dark: #298126;
+    $color-button: #2b5041;
+}
+
+// THEME2 -- blue --
+@if ($theme == 'blue') {
+    $color-light: #0fcff1;
+    $color-dark: #1259f3;
+    $color-button: #1286f3;
+}
