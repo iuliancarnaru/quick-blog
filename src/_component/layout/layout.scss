@@ -23,7 +23,7 @@
         display: inline-block;
         text-decoration: none;
         color: $color-white;
-        font-size: 1.8rem;
+        font-size: 1.6rem;
         transition: all .2s;
         padding: .5rem 2rem;
         border: 0.05rem solid $color-white;
@@ -41,8 +41,8 @@
 .continue {
     padding: 2rem;
     font-size: 1.4rem;
+}
 
-    p:not(:last-child) {
-        margin-bottom: 2rem;
-    }
+.heading__secondary {
+    color: $color-dark;
 }

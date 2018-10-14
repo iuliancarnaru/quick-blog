@@ -6,6 +6,7 @@ block config
         const description = "Using super Quick Blog is wasy and you can get 100/100 score on Google pagespeed insights";
 
 block content
+    #welcome
     .welcome
         h1.welcome__title=title
         p.welcome__description=description
@@ -14,8 +15,18 @@ block content
     
     #continue
     .continue
-        p Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum perferendis repellendus neque itaque! Incidunt, perferendis cupiditate alias cum rerum soluta aperiam harum. Corrupti obcaecati veniam optio similique vel sed. Voluptas. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        h2.heading__secondary Let's write some content
+        p 
+            | The source of Quick Blog can be found at #[a(href="#", target="_blank") Quick Blog].
 
-        p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati sit dicta dolorem, qui dolorum ducimus delectus consequatur ad alias, cum temporibus corporis deserunt vel numquam nam officia eaque assumenda vero.
+        blockquote.blockquote
+            .blockquote__body
+                p You don't have to bee good to start, you have to start to become good.
+            .blockquote__footer
+                a(href="#", target="_blank") Iulian Carnaru
 
-        p   Lorem ipsum dolor sit amet consectetur adipisicing elit. A tenetur eligendi maxime, cumque minima voluptas non asperiores aliquid quia, nemo deleniti temporibus fuga itaque praesentium amet tempora delectus quae sapiente. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+        p.lead Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati sit dicta dolorem, qui dolorum ducimus delectus consequatur.
+
+        p
+            small Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci aspernatur.
+        a(href="#welcome") Top
